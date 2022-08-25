@@ -1,0 +1,16 @@
+<table class="table table-striped table-inverse table-responsive">
+    <thead class="thead-inverse">
+        <tr>
+            <th>anime</th>
+            <th>character</th>
+            <th>quote</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of animeData">
+                <td scope="row">{{data.anime}}</td>
+                <td>{{data.character}}</td>
+                <td>{{data.quote}}</td>
+            </tr>
+        </tbody>
+</table>
